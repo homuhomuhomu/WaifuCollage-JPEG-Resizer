@@ -13,3 +13,5 @@ You may wish to make backups of the photos before putting them all in the 'rawfi
 
 I will be working on the actual collage maker script and should finish it in a few hours.
 
+ADVANCED SETTINGS:
+I have hard-coded the 4:3 aspect ratio and don't expect you will need to change it.  I *did* code in the pixel size of each thumbnail to be 136 pixels wide by 102 pixels tall, and can very easily change that (I need to modify the source *.py files)
