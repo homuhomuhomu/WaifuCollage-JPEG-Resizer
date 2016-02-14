@@ -5,7 +5,8 @@ Quick start example guide:
 2) Open the WaifuCollage-JPEG-Resizer folder and open up the rawfiles folder.  THIS IS WHERE YOU WILL PUT ALL THE PHOTOS!
 3) You will note the example pictures (not drawn by me); there should be a mix of JPEG and PNG files.  You will convert everything to JPEG format.
 4) Open up the commdand line.  You can do this by searching for 'cmd'
-5) Change your directory to WaifuCollage-JPEG-Resizer.  If you have unzipped the folder in the 'Downloads' folder, simply type 'cd Downloads', hit enter, then type 'cd WaifuCollage-JPEG-Resizer' and hit enter again
+5) Change your directory to WaifuCollage-JPEG-Resizer.  If you have unzipped the folder in the 'Downloads' folder, simply type 'cd Downloads', hit enter, then type 'cd WaifuCollage-JPEG-Resizer' and hit enter again. 
+It's possible that the WaifuCollage-JPEG-Resizer folder may have a slightly different name, so you may need to alter it to something like 'WaifuCollage-JPEG-Resizer-master...
 6) In the command line (black box), type 'WaifuCollageJPEG.exe rawfiles' and hit enter.  Open the processedImg folder and you will find that all the files now have the JPEG/JPG extension!
 7) In the command line (black box), type 'WaifuCollageResizer.exe resized' and hit enter.  Open the resized folder and you will find scaled down versions of all the files!
 
