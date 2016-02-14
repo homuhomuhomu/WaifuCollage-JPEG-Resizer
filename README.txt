@@ -57,6 +57,11 @@ This won't do!  We want Mami's head in the right place!  Try changing it to:
 
 Observe the diagonal swap; its probably the easiest way to do this without having to shift all the numbers.
 
+***UPDATE 2:34AM EST 02/14/2016***
+WaifuCollageResizer will now make a folder titled 'big' which saves copies of each file as an 800x600.
+There was also a bug in the MEGA-COMMAND (it wasn't using the right directory as inputs; basically it would fail to process non jpeg files in the extreme case).
+
+
 ADVANCED SETTINGS:
 I have hard-coded the 4:3 aspect ratio and don't expect you will need to change it.  I *did* code in the pixel size of each thumbnail to be 400 pixels wide by 300 pixels tall, and can very easily change that (I need to modify the source *.py files)
 
@@ -64,7 +69,8 @@ TROUBLESHOOTING:
 If the program crashes, check to make sure you don't have any of the folders open in explorer, specifically the 'enumerated' and 'output' folders.  It will work if you close the windows and try again.
 If you get errors in the Maker script, make sure your CollageMap.csv makes sense
 If you see an error in line 71 for the Resizer, I apologize, I changed the input command a bit, so you need to have both 'rawfiles' and 'resized' (see the MEGA-COMMAND)
+I'm not 100% sure the folder-making function translates cleanly into the .exe.  If you get an error that no such directory exists, just make an empty folder (or better yet, just have the folders: 'rawfiles','processedImg', and 'resized')
 
 MEGA-COMMAND:
 If you are tired or retyping for each entry, just use the following (make sure you are in the correct directory):
-WaifuCollageJPEG.exe rawfiles & WaifuCollageResizer.exe resized resized & WaifuCollageMaker.exe resized enumerate
+WaifuCollageJPEG.exe rawfiles & WaifuCollageResizer.exe processedImg resized 
